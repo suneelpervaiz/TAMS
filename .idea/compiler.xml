@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="talent-api-gateway" />
+        <module name="talent-request-service" />
+        <module name="talent-discovery-service" />
+        <module name="talent-fullfilment-service" />
+        <module name="talent-portal-service" />
+        <module name="tams-core-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="talent-api-gateway" options="-parameters" />
+      <module name="talent-discovery-service" options="-parameters" />
+      <module name="talent-fullfilment-service" options="-parameters" />
+      <module name="talent-portal-service" options="-parameters" />
+      <module name="talent-request-service" options="-parameters" />
+      <module name="tams-core-api" options="-parameters" />
+    </option>
+  </component>
+</project>
